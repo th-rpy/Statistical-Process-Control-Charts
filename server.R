@@ -30,7 +30,7 @@ samp_data_plus <- reactive({
 target:
 sigma <- 0.24
 upper <- input$thresh + 3 * sigma
-96# create a data frame of the simulated data plus thresholds etc
+# create a data frame of the simulated data plus thresholds etc
 tmp <- samp_data() %>%
 # add the overall limits:
 mutate(upper = upper,
