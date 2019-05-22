@@ -1,7 +1,6 @@
-# This is the user-interface definition of a Shiny web application.
-You can
+# This is the user-interface definition of a Shiny web application.You can
 # run the application by clicking 'Run App' above.
-#
+
 library(shiny)
 library(ggvis)
 shinyUI(fluidPage(
@@ -40,7 +39,7 @@ radioButtons("disp", "Display",
 choices = c(Head = "head",
 All = "all"),
 selected = "head")
-98),
+),
 # Main panel for displaying outputs ----
 mainPanel(
 # Output: Data file ----
@@ -90,7 +89,7 @@ each month if you wish to confidently identify faulty sites
 in any particular month; but
 drawing conclusions over a longer period is more reliable -
 so long as defect
-99rates really are fairly stable over time in particular
+rates really are fairly stable over time in particular
 sites."),
 p("A second point we illustrate is that even when the true
 defect rate is
